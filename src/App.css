@@ -1,0 +1,156 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logoContainer {
+  height: 134px;
+  position: absolute;
+  left: 114px;
+  top: 59px;
+  z-index: 20;
+  display: block;
+}
+.logoContainer.active {
+  display: none;
+}
+
+.logoContainer img {
+  height: 100%;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-transform: uppercase;
+  height: 100px;
+  align-items: center;
+  list-style: none;
+}
+
+.navMenu ul li {
+  z-index: 25;
+}
+
+ul li a {
+  font-family: Gentle;
+  letter-spacing: 2px;
+}
+
+.mainText {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 450px;
+  text-align: left;
+  line-height: 45px;
+  font-family: Avenue;
+}
+
+.HeroMainBtn {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-family: Avenue;
+  letter-spacing: 3px;
+}
+
+.trailer {
+  background-color: rgba(0, 0, 0, 0.665);
+  width: 100%;
+  z-index: 30;
+  position: absolute;
+  top: -20px;
+  display: none;
+  opacity: 0;
+  padding-bottom: 50px;
+}
+
+.trailer.active {
+  display: block;
+  opacity: 1;
+  height: 751px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  height: 600px;
+}
+
+.BtnClose {
+  color: white;
+  background-color: red;
+  font-size: 30px;
+  z-index: 30;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+.BtnClose:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* -----------CARDS----------- */
+
+.imgCard {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.imgCard img {
+  height: 100%;
+}
+
+.textCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.textCard p {
+  text-align: left;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+#cardContent {
+  margin-bottom: 80px;
+}
+
+.readMore {
+  color: rgb(178, 24, 24);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: Gentle;
+  letter-spacing: 2px;
+}
+
+.readMoreContainer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: flex-end;
+}
+
+.flexNews {
+  display: flex;
+  gap: 40px;
+}
+
+.titleNews {
+  font-family: Friday13;
+  color: rgb(174, 18, 18);
+}
