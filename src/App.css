@@ -21,6 +21,22 @@
   filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
 }
 
+.landscapeContainer {
+  width: 60%;
+  display: flex;
+  gap: 40px;
+  text-align: left;
+}
+
+.dlcGallery {
+  display: flex;
+  gap: 10px;
+}
+
+.dlcGallery img {
+  height: 120px;
+}
+
 .navMenu {
   display: flex;
   justify-content: center;
@@ -29,6 +45,33 @@
   height: 100px;
   align-items: center;
   list-style: none;
+}
+
+.rightFooter {
+  width: 50%;
+  padding: 40px;
+}
+
+.leftLogosFooter {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 515px;
+  gap: 20px;
+}
+
+.leftLogosFooter div img {
+  max-width: 150px;
+}
+
+.leftLogosFooter div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightFooter p {
+  font-size: 14px;
 }
 
 .navMenu ul li {
